@@ -1,0 +1,164 @@
+
+
+
+
+
+/* hero */
+
+.hero{
+    height: 700px;
+
+    background-image: url(./img/background\ 1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+.Menu{
+    height: 770px;
+
+    background-image: url(./img/Rectangle\ 25.jpg);
+
+    background-position: center;
+}
+
+
+.Quality {
+    height: 860px;
+
+    background-image: url(./img/Group\ 24.jpg);
+
+    background-position: left;
+}
+
+.Traditional{
+    height: 580px;
+    background-repeat: no-repeat;
+    background-image: url(./img/backgraund\ 4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.blur{
+    height: 580px;
+    background: linear-gradient(89.59deg, #000000 8.49%, rgba(3, 3, 3, 0) 77.17%);
+}
+
+.Where{
+    height: 705px;
+    background-image: url(./img/Rectangle\ 27.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Last{
+    height: 351px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./img/остання.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.backgraundcolor{
+    background-color: #202023;
+}
+
+.switch-lang {
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+.langUA {
+    margin-right: 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.langEN {
+    margin-left: 30px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.switch__container {
+    margin: 30px auto;
+    width: 120px;
+}
+
+.switch {
+    visibility: hidden;
+    position: absolute;
+    margin-left: -9999px;
+}
+
+.switch + label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+    border: 1px solid #ffffff;
+}
+
+.switch--shadow + label {
+    padding: 2px;
+    width: 120px;
+    height: 60px;
+
+    border-radius: 60px;
+}
+
+.switch--shadow + label:before,
+.switch--shadow + label:after {
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    bottom: 6px;
+    content: "";
+}
+
+.switch--shadow + label:before {
+    right: 1px;
+    opacity: 0;
+    border-radius: 60px;
+    transition: background 0.4s;
+}
+
+.switch--shadow + label:after {
+    width: 40px;
+    height: 37px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
+    transition: all 0.4s;
+}
+
+.switch--shadow:checked + label:before {
+    background-color: #8ce196;
+}
+
+.switch--shadow:checked + label:after {
+    transform: translateX(60px);
+}
+
+.header {
+    position: absolute;
+z-index: 1;
+top: 0;
+left: 0;
+}
+
+/* ------------------------------------------- modal ------------------------------*/
