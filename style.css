@@ -5,6 +5,55 @@
 
 /* hero */
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 .hero{
     height: 700px;
 
@@ -68,6 +117,42 @@
     background-color: #202023;
 }
 
+.img {
+
+width: 275px;
+height: 284px;
+left: 548px;
+z-index: 10;
+
+
+} 
+
+.text-Shop-now {
+width: 139px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+
+}
+
+.SHOP_NOW {
+    width: 207px;
+    padding-top: 16px;
+    padding-bottom: 7px;
+    display: block;
+    height: 57px;
+
+left: 157px;
+
+background: #B47B48;
+border-radius: 17px;
+}
+
 .switch-lang {
     display: flex;
     align-items: center;
@@ -114,8 +199,8 @@
 
 .switch--shadow + label {
     padding: 2px;
-    width: 120px;
-    height: 60px;
+    width: 60px;
+    height: 30px;
 
     border-radius: 60px;
 }
@@ -124,9 +209,9 @@
 .switch--shadow + label:after {
     display: block;
     position: absolute;
-    top: 9px;
-    left: 10px;
-    bottom: 6px;
+    top: 4px;
+    left: 5px;
+    bottom: 3px;
     content: "";
 }
 
@@ -138,8 +223,8 @@
 }
 
 .switch--shadow + label:after {
-    width: 40px;
-    height: 37px;
+    width: 25px;
+    height: 26px;
     background-color: #fff;
     border-radius: 50%;
     box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
@@ -151,7 +236,7 @@
 }
 
 .switch--shadow:checked + label:after {
-    transform: translateX(60px);
+    transform: translateX(30px);
 }
 
 .header {
@@ -161,4 +246,152 @@ top: 0;
 left: 0;
 }
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.Quality{
+    display: flex;
+    padding-bottom: 48px;
+    padding-top: 90px;
+    position: relative;
+}
+
+
+.boxis_boss{
+    display: flex;
+    margin-left: 221px;
+    margin-right: 209px;
+}
+
+.tet-box-1{
+    position: relative;
+}
+
+.box{
+    background-color: #f2f2f2;
+}
+
+.img {
+    top: 0;
+    width: 275px;
+    height: 284px;
+    position: absolute;
+    left: 0;
+    } 
+
+/* class="tet box 1"
+class="img"  
+class="box"
+class="boxi"
+class="boxis"
+class="boxi"
+class="boxi"
+class="boxi"  */
+
+
+
+/* About us Delivery Menu Contacts Reviews */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------------------------------------------- modal ------------------------------*/
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 10;
+    /* filter: blur(4px); */
+}
+/* 
+.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}*/ 
+
+.modal {
+    
+    display: flex;
+
+    background-image: url(./img/модальнийхліб.png);
+    background-repeat: no-repeat;
+    /*background-size: cover;
+    background-position: centers;*/
+    z-index: 11;
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    width: 990px;
+    height: 669px;
+
+    
+    background: #FFFFFF;
+    border-radius: 50px;
+} 
+
+.Modalbread {
+    width: 617px;
+    height: 448px;
+}

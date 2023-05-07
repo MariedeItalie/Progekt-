@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'social';
+  src:  url('fonts/social.eot?2i2tnb');
+  src:  url('fonts/social.eot?2i2tnb#iefix') format('embedded-opentype'),
+    url('fonts/social.ttf?2i2tnb') format('truetype'),
+    url('fonts/social.woff?2i2tnb') format('woff'),
+    url('fonts/social.svg?2i2tnb#social') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'social' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone-square:before {
+  content: "\f098";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-facebook:before {
+  content: "\f09a";
+}
+.icon-facebook-f:before {
+  content: "\f09a";
+}
+.icon-github:before {
+  content: "\f09b";
+}
+.icon-instagram:before {
+  content: "\f16d";
+}
